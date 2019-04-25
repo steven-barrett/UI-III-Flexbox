@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	margin: 25px;
 }
 ol, ul {
 	list-style: none;
@@ -64,3 +65,108 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+nav {
+	display: flex;
+	justify-content: space-evenly;
+}
+h4 {
+	margin: 15px;
+}
+.services {
+	display: flex;
+	flex-flow: column;
+	justify-content: space-evenly;
+}
+
+p {
+	margin: 15px;
+	/*padding: 0px 0px 10px 0px;*/
+}
+.services-info-img {
+	width: 300px;
+	height: 300px;
+}
+.services-header-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+	padding: 15px 0 15px 0px;
+}
+.section-1 {
+	display: flex;
+	flex-flow: row wrap;
+  
+	/* Then we define how is distributed the remaining space */
+	justify-content: space-around;
+	align-content: space-between
+}
+.section-2 {
+	display: flex;
+	/*flex-flow: row wrap;*/
+  
+	/* Then we define how is distributed the remaining space */
+	justify-content: space-evenly;
+	padding: 0px 0px 25px 0px;
+}
+
+.footer-facts {
+	display: flex;
+	flex-flow: column;
+	justify-content: space-evenly;
+}
+
+.digital-design {
+	border: 1px solid black;
+	max-width: 400px;
+	margin: 25px;
+	background-color: rgba(250, 247, 242, 0.877);
+}
+.ux-ui {
+	border: 1px solid black;
+	max-width: 400px;
+	margin: 25px;
+	background-color: rgba(250, 247, 242, 0.877);
+}
+.digital-marketing {
+	border: 1px solid black;
+	max-width: 400px;
+	margin: 25px;
+	background-color: rgba(250, 247, 242, 0.877);
+}
+.web-development {
+	border: 1px solid black;
+	max-width: 400px;
+	margin: 25px;
+	background-color: rgba(250, 247, 242, 0.877);
+}
+.ios-development {
+	border: 1px solid black;
+	max-width: 400px;
+	margin: 25px;
+	background-color: rgba(250, 247, 242, 0.877);
+}
+.android-development {
+	border: 1px solid black;	
+	max-width: 400px;
+	margin: 25px;
+	background-color: rgba(250, 247, 242, 0.877);
+}
+button {
+	background-color: white;
+	margin: 5px 15px 15px 15px;
+}
+.facts-p {
+	width: 350px;
+}
+
+footer {
+	text-align: center;
+	font-style: italic;;
+}
+hr { 
+    display: block;
+    overflow: hidden;
+    border-style: inset;
+	border-width: 1px;
+	color: black;
+}
